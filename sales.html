@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/sales.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="sales-container">
+      <div class="txt-wrapper">
+        <h2 class="text">Sales</h2>
+        <h2 class="txt"><a href="/product.html">All Products</a></h2>
+        <h2 class="txt"><a href="/update.html">Add/Update Prod</a></h2>
+        <h2 class="txt"><a href="./index.html">Log Out</a></h2>
+      </div>
+
+      <div class="sales-content">
+        <h1>Product List</h1>
+        <div class="product-list-sub-container">
+          <div class="product-list">
+            <table class="table-container">
+              <thead>
+                <tr>
+                  <th>S/N</th>
+                  <th>Product</th>
+                  <th>Quantity</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="tBody">
+                <!-- <tr>
+                  <td class="tbldata1" id="sales_Sn">1</td>
+                  <td class="tbldata1" id="sales_name">Fanta Orange ₦250</td>
+                  <td class="tbldata1" id="sales_input"><input type="number" class="sales-input" /></td>
+                  <td class="addCartBtn" id="sales_wd">+ Cart</td>
+                </tr> -->
+              </tbody>
+            </table>
+          </div>
+          <div class="shopping-cart">
+              <table>
+                  <thead>
+                      <tr>
+                          <th>Prod</th>
+                          <th>Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart_table_body">
+                        <tr>
+                            <td>1×250</td>
+                            <td>500</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="sales-cart-total">
+                    <h4>Total:</h4>
+                    <h4 id="cart_total">0.00</h4>
+                </div>
+                <div class="Checkout_btn">
+
+                  <button class="btn" onclick="checkout()">Checkout</button>
+                  <button class="btn2">clear</button>
+                </div>
+                </div>
+        </div>
+        <!-- sales content goes here -->
+      </div>
+    </div>
+    <script src="/Js/sales.js"></script>
+  </body>
+</html>

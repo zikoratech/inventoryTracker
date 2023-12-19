@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.sales-container{
+    background-color: #eff2ec;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.txt-wrapper{
+    border: none solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 1rem 3rem 3rem 2rem;
+    flex-direction: column;
+    padding: 2rem 0rem ;
+    width: 17%;
+    height: 90vh;
+    margin-left: 40px;
+    /* padding-bottom: 40%; */
+}
+
+.sales-content {
+    padding: 10px;
+    width: 78%;
+    height: 90vh;
+    border-radius: 10px;
+    background-color: #ffffff;
+    overflow-y: hidden;
+}
+
+.text{
+    /* color: #00acee; */
+    border-bottom: 1px solid #f6f6f5;
+    padding: 10px 0px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.txt{
+    border-bottom: 1px solid #f6f6f5;
+    padding: 10px 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    /* border: 1px solid #121212; */
+}
+
+.product-list{
+    width: 65%;
+    height: 80vh;
+    overflow-y: scroll;
+    background-color: #ffffff;
+}
+.product-list table{
+    margin-left: 40px;
+    width: 92%;
+    font-size: 20px;
+    text-align: center;
+    /* border-raidus: 20px; */
+    border: #eff2ec; 
+    margin-top: 20px;
+}
+
+.sales-input{
+    width: 70%;
+    background-color: #f6f6f5;
+    padding: 15px 40px;
+    border: none;
+    font-size: 20px;
+}
+
+.addCartBtn{
+    background-color: #00acee;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+
+
+}
+
+.product-list-sub-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: #eff2ec;
+    border-radius: 10px;
+}
+
+.tbldata1{
+    border-bottom: 1px solid #f6f6f5;
+    padding:1rem 0 ;
+    /* margin-top: 30px; */
+}
+
+.shopping-cart{
+    width: 32%;
+    padding: 10px;
+    background-color: #ffffff;
+    /* margin-left: 50px; */
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.shopping-cart table{
+    width: 100%;
+}
+
+.sales-cart-total{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f6f6f5;
+    border-top: 1px solid #f6f6f5;
+    margin-top: 40px;
+    padding: 10px 75px;
+}
+
+.Checkout_btn{
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 0 14px;
+}
+
+.btn{
+    background-color:  #2baf2b;
+    padding: 7px 22px;
+    font-size: 22px;
+    border-radius: 20px;
+    color: #ffffff;
+    border: none;
+}
+
+.btn2{
+    background-color: #ef5734;
+    padding: 7px 22px;
+    font-size: 22px;
+    border-radius: 20px;
+    color: #ffffff;
+    border: none;
+}
+
+/* addd hover effect to all buttons*/

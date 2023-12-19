@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/update.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="update-container">
+      <div class="update-wrapper">
+        <h2 class="h2txt"><a href="/sales.html">Sales</a></h2>
+        <h2 class="h2"><a href="/product.html">All Products</a></h2>
+        <h2 class="h2">Add/Update Prod</h2>
+        <h2 class="h2"><a href="./index.html">Log Out</a></h2>
+      </div>
+      <div class="container">
+        <h4 class="third">Product Name</h4>
+        <input class="update-input" id="product-name" />
+        <div class="h4-container-wrapper">
+          <div class="h4-container">
+            <h4 class="first">Quantity(Unit)</h4>
+            <input class="updates-input" type="number" id="quantity" />
+          </div>
+          <div class="h4-container">
+            <h4 class="second">Price(₦)</h4>
+            <input class="updates-input" type="number" id="price" />
+          </div>
+        </div>
+        <button class="button" id="button">Add</button>
+        <button class="button" id="update_btn">Update</button>
+        <div class="update-list">
+          
+          <div class="list-container">
+            <div class="update-content">
+              <div class="update-list-container">
+                <div class="update-list-wrapper">
+                  <table class="tbl-container">
+                    <thead>
+                      <tr class="table-row">
+                        <th>S/N</th>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody id="tBody">
+                      <!-- <tr class="tabl-row">
+                               <td>1</td>
+                               <td>goods</td>
+                               <td>4500</td>
+                               <td>20</td>
+                              <td >
+                                <span class="edit">Edit</span>
+                                <span class="delete">Delete</span>
+                              </td> 
+                           </tr> -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/Js/update.js"></script>
+  </body>
+</html>
