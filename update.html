@@ -4,16 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/update.css" />
+    <link rel="stylesheet" href="CSS/dashboard.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="update-container">
-      <div class="update-wrapper">
-        <h2 class="h2txt"><a href="/sales.html">Sales</a></h2>
-        <h2 class="h2"><a href="/product.html">All Products</a></h2>
-        <h2 class="h2">Add/Update Prod</h2>
-        <h2 class="h2"><a href="./index.html">Log Out</a></h2>
+      <div class="dashboard-container">
+        <!-- <p class="dashboard_menu_button" id="dashboard_menu_button">≡</p> -->
+        <div class="dashboard-wrapper" id="dashboard-wrapper">
+          <a href="/sales.html" class="navlinks">Sales</a>
+          <a href="/product.html" class="navlinks">All Products</a>
+          <a href="/update.html" class="navlinks">Add/Update Prod</a>
+          <a href="./index.html" class="navlinks">Log Out</a>
+        </div>
       </div>
+
       <div class="container">
         <h4 class="third">Product Name</h4>
         <input class="update-input" id="product-name" />
@@ -30,7 +35,6 @@
         <button class="button" id="button">Add</button>
         <button class="button" id="update_btn">Update</button>
         <div class="update-list">
-          
           <div class="list-container">
             <div class="update-content">
               <div class="update-list-container">
